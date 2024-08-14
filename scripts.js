@@ -6,7 +6,7 @@ function yesAndNot() {
   let secondStep = true;
 
   while (firstStep) {
-    yes = prompt("Напишите yes", "");
+    let yes = prompt("Напишите yes", "");
     if (yes != expectedYes) {
       alert("ТЫ ДАЛБАЕБ!");
       continue;
@@ -16,7 +16,7 @@ function yesAndNot() {
   }
 
   while (secondStep) {
-    not = prompt("Напишите not", "");
+    let not = prompt("Напишите not", "");
     if (not != expectedNot) {
       alert("ТЫ ЕБЛАН ТУПОЙ!");
       continue;
